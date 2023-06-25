@@ -1,0 +1,218 @@
+/*body{
+    background-image: url("../imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}*/
+
+
+/*Primera parte de la pag "header"*/
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+
+#logo-header{
+   
+    height: 100px;
+    width: 100px;
+}
+
+body{
+    background-image: url("../imagenes/fondo-body.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+.izquierda{
+    background-image: url("../imagenes/fondo-izq.jpg");
+    height: 100vh;
+    width: 45%;
+    font-style: italic;
+    color: white;
+    
+}
+.derecha{
+    background-image: url("../imagenes/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 55%;
+    height: 100vh;
+}
+
+.botonG{
+    border: 1px solid white;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: #FFFFFF35;
+
+}
+
+
+
+
+
+
+
+
+/*Segunda parte "Carrusel"*/
+
+#header-menu{
+    margin-top: 2cm;
+    margin-bottom: 1cm;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Parte contacto
+background-image: url("../imagenes/fondo-consultaReclamo.jpg");
+*/
+
+.box-contacto{
+    background-color: #FFFFFF10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #FFFFFF20;
+    backdrop-filter: blur(15px);
+    color: white;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    opacity: 0.989;
+}
+
+
+
+
+
+
+
+/*SUCURSALES*/
+
+#sucursales-fondo{
+    background-image: url("../imagenes/sucursales-fondo.avif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+
+#header2-sucursal{
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.info-sucursal1{
+    display: flex;
+}
+
+
+#id-sucursal1{
+    margin-top:170px;
+    color: white;
+}
+
+.mover-img{
+   margin-left: 100px;
+}
+
+#id-sucursal2{
+    margin-top:320px;
+    color: white;
+}
+
+
+
+/*"QUIENES SOMOS"*/
+
+#quienes-somos-fondo{
+    background-image: url("../imagenes/conocenos-fondo.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*"footer"*/
+#footer-main{
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 130px;
+}
+#footer-quienes-somos{
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 130px;
+}
+#footer-contactame{
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 130px;
+}
+#footer-sucursales{
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 130px;
+}
+.todo-redes{
+    display: block;
+    
+}
+
+.posicion-imgRedes{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 250px;
+}
+
